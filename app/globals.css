@@ -46,3 +46,6 @@ footer{background:var(--green);color:white;padding:35px clamp(22px,6vw,100px);di
 /* Meilleur équilibre de la mise en page, sans modifier le contenu. */
 .content{padding-block:105px}
 @media(max-width:700px){.content{padding-block:72px}}
+
+/* Premier bouton : texte blanc sur fond vert, y compris au survol. */
+.intro .cta,.intro .cta:visited,.intro .cta:hover,.intro .cta:focus-visible{background:var(--green);color:#fff}
