@@ -1,14 +1,7 @@
-# UZTA — Maquette 01 « Basque authentique »
+# UZTA — Maquette 1, version animations
 
-Projet Next.js prêt à connecter à GitHub et Vercel.
+Next.js 15, prêt pour GitHub et Vercel.
 
-## Démarrage
-`npm install` puis `npm run dev`
+Accueil : drapeau et logo officiel, fond ivoire, sections vert / blanc / rouge / blanc, accents colorés, animations au défilement et au survol. Boutons à couleurs fixes. Pages À propos et Blog laissées sans contenu tant que leurs textes ne sont pas fournis.
 
-## Contenu
-- Accueil : textes fournis reproduits sans modification.
-- À propos et Blog : titres uniquement, dans l’attente des textes officiels.
-- Bannière : drapeau basque vectoriel local et logo fourni.
-- Les boutons de découverte renvoient provisoirement à la dernière section de l’accueil, sans inventer une page d’annuaire.
-
-Le logo JPEG original est inclus dans `public/logo-uzta.jpg`.
+Installation : `npm install` puis `npm run dev`.
