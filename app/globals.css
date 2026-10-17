@@ -49,3 +49,6 @@ footer{background:var(--green);color:white;padding:35px clamp(22px,6vw,100px);di
 
 /* Premier bouton : texte blanc sur fond vert, y compris au survol. */
 .intro .cta,.intro .cta:visited,.intro .cta:hover,.intro .cta:focus-visible{background:var(--green);color:#fff}
+
+/* Pied de page : liens blancs sur fond vert, y compris au survol. */
+footer nav a,footer nav a:visited,footer nav a:hover,footer nav a:focus-visible{color:#fff}
