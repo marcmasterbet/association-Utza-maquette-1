@@ -1,2 +1,1 @@
-import Shell from '../../components/Shell';
-export default function Page(){return <Shell><main className="empty-page"><h1>Blog</h1></main></Shell>}
+export default function Page(){return <><header className="top"><a className="brand" href="/">UZTA</a><nav><a href="/">Accueil</a><a href="/a-propos">À propos</a><a href="/blog">Blog</a></nav></header><main className="pending"><h1>Blog</h1></main></>}
