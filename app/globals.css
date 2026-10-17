@@ -24,3 +24,25 @@ footer{background:var(--green);color:white;padding:35px clamp(22px,6vw,100px);di
 
 /* Drapeau : couleurs originales sans voile ni décoloration. */
 .flagShade{display:none}.flag:after{display:none}
+
+/* Validation UZTA : navigation, fonds, accents et boutons */
+.top nav a, .top nav a:visited, footer nav a, footer nav a:visited {color:var(--red)}
+.top nav a:hover,footer nav a:hover{color:var(--red);opacity:1;text-decoration:underline;text-underline-offset:7px}
+.content.ivory-panel{background:var(--ivory);color:var(--ink)}
+/* Les sections rouges pleines sont retirées. */
+.content.red-panel{background:var(--ivory);color:var(--ink)}
+.content .inner{display:block;max-width:990px}
+.content .inner>div:last-child{max-width:900px}
+.content .decor{display:none}
+/* Rouge basque visible sur les sections vertes, avec lisibilité renforcée. */
+.green-panel .accent-red{color:#ff4353;text-shadow:0 1px 1px rgba(0,0,0,.32)}
+.green-panel .accent-green{color:#fff}
+/* Boutons : couleurs immuables, animation uniquement par élévation. */
+.intro .cta,.intro .cta:visited,.intro .cta:hover,
+.white-panel .cta,.white-panel .cta:visited,.white-panel .cta:hover,
+.ivory-panel .cta,.ivory-panel .cta:visited,.ivory-panel .cta:hover{background:var(--green);color:var(--red)}
+.green-panel .cta,.green-panel .cta:visited,.green-panel .cta:hover{background:var(--red);color:#fff}
+.cta,.cta:hover,.cta:visited{transition-property:transform,box-shadow}
+/* Meilleur équilibre de la mise en page, sans modifier le contenu. */
+.content{padding-block:105px}
+@media(max-width:700px){.content{padding-block:72px}}
