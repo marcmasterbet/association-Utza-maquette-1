@@ -1,12 +1,16 @@
-# UZTA — Maquette 1, version animations
+# UZTA — Refonte propre
 
-Next.js 15, prêt pour GitHub et Vercel.
+Projet Next.js reconstruit de zéro, sans réutiliser les composants des versions précédentes.
 
-Accueil : drapeau et logo officiel, fond ivoire, sections vert / blanc / rouge / blanc, accents colorés, animations au défilement et au survol. Boutons à couleurs fixes. Pages À propos et Blog laissées sans contenu tant que leurs textes ne sont pas fournis.
+## Installation
 
-Installation : `npm install` puis `npm run dev`.
+```bash
+npm install
+npm run dev
+```
 
+Déployer sur Vercel en important le dépôt GitHub (framework Next.js).
 
-Animation : les sections apparaissent doucement au défilement (1,35 s), avec un léger décalage progressif des titres et paragraphes. Respect de prefers-reduced-motion.
+Les textes de la page d'accueil sont repris de la version fournie, sans réécriture. Les symboles 👉 des indications de boutons ne sont pas affichés. Les pages À propos et Blog n'ont pas de texte ajouté, dans l'attente des contenus officiels.
 
-Palette officielle de la maquette : rouge #D82032, vert #087B49 et blanc #FFFFFF, identiques au SVG du drapeau. Aucun voile sur le drapeau.
+Les couleurs des boutons sont fixes au survol. Les effets de révélation au défilement respectent la préférence de mouvement réduit.
