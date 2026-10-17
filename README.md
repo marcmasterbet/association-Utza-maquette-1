@@ -8,3 +8,5 @@ Installation : `npm install` puis `npm run dev`.
 
 
 Animation : les sections apparaissent doucement au défilement (1,35 s), avec un léger décalage progressif des titres et paragraphes. Respect de prefers-reduced-motion.
+
+Palette officielle de la maquette : rouge #D82032, vert #087B49 et blanc #FFFFFF, identiques au SVG du drapeau. Aucun voile sur le drapeau.
