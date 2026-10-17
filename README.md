@@ -1,7 +1,5 @@
-UZTA — Maquette 1, modifications validées
-
-Projet Next.js à déployer sur GitHub et Vercel.
-
-Modifications : navigation rouge ; drapeau et logo inchangés ; suppression des décorations étoile et trait ; suppression des fonds rouges ; section ivoire ; accents rouges/verts ; boutons sans changement de couleur et animation douce ; révélations au défilement.
-
-Les textes et la ponctuation sont conservés. Les pages À propos et Blog restent en attente des textes.
+UZTA — Maquette 1, optimisation mobile complète.
+Base : maquette 1 drapeau 3:2.
+Mobile : header compact, drapeau aux bonnes proportions, accroche et CTA placés avant les paragraphes, typographie fluide, zones tactiles, pied de page responsive, animation d’entrée désactivée sur mobile pour affichage immédiat.
+Desktop : styles inchangés.
+Contrôler le rendu réel sur différents appareils après déploiement.
