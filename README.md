@@ -1,5 +1,1 @@
-UZTA — Maquette 1, optimisation mobile complète.
-Base : maquette 1 drapeau 3:2.
-Mobile : header compact, drapeau aux bonnes proportions, accroche et CTA placés avant les paragraphes, typographie fluide, zones tactiles, pied de page responsive, animation d’entrée désactivée sur mobile pour affichage immédiat.
-Desktop : styles inchangés.
-Contrôler le rendu réel sur différents appareils après déploiement.
+Maquette 1 UZTA. La photographie panoramique générée et validée a été intégrée sous le CTA, avant le pied de page. Tous les autres fichiers du projet sont identiques à la version précédente. Cette image est une illustration générée, pas une photographie documentaire d’Ustaritz.
